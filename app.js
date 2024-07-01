@@ -1,4 +1,3 @@
-/*
 let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
@@ -75,71 +74,3 @@ function reiniciarJuego() {
 }
 
 condicionesIniciales();
-
-*/
-/*let listaGenerica =[];
-let lenguajeDeprogramacion=['JavaScript', 'C','C++','Kotlin','Python'];
-let lenguageDeProgramacion = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python'];
-
-lenguageDeProgramacion.push('Java', 'Ruby', 'GoLang');
-let lenguagesDeProgramacion = ['JavaScript', 'C','C++','Kotlin','Python','Java', 'Ruby', 'GoLang'];
-
-function mostrarLenguajes() {
-    lenguagesDeProgramacion.forEach(function(lenguaje) {
-        console.log(lenguaje);
-    });
-}
-
-// Llamada a la función para mostrar los elementos en la consola
-mostrarLenguajes();
-*/
-/*
-///Función que muestra en la consola todos los elementos de la lista lenguagesDeProgramacion en orden inverso:
-
-let lenguagesDeProgramacion = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python', 'Java', 'Ruby', 'GoLang'];
-
-function mostrarLenguajesInverso() {
-    lenguagesDeProgramacion.slice().reverse().forEach(function(lenguaje) {
-        console.log(lenguaje);
-    });
-}
-
-// Llamada a la función para mostrar los elementos en orden inverso en la consola
-mostrarLenguajesInverso();
-*/
-
-//Función que calcula el promedio de los elementos en una lista de números:
-/*
-function calcularPromedio(lista) {
-    let suma = lista.reduce((acc, num) => acc + num, 0);
-    return suma / lista.length;
-}
-
-// Ejemplo de uso
-let numeros = [1, 2, 3, 4, 5];
-console.log(calcularPromedio(numeros)); // Output: 3
-*/
-//3.- Función que muestra en la consola el número más grande y el número más pequeño en una lista:
-/*
-function mostrarMayorYMenor(lista) {
-    let mayor = Math.max(...lista);
-    let menor = Math.min(...lista);
-    console.log("Mayor:", mayor);
-    console.log("Menor:", menor);
-}
-
-// Ejemplo de uso
-let numeros = [1, 2, 3, 4, 5];
-mostrarMayorYMenor(numeros); // Output: Mayor: 5, Menor: 1
-
-*/
-
-// 4*.- Función que devuelve la suma de todos los elementos en una lista:
-
-function sumarElementos(lista) {
-    return lista.reduce((acc, num) => acc + num, 0);
-}
-
-// Ejemplo de uso
-let numeros = [1, 2, 3, 4, 5];
-console.log(sumarElementos(numeros)); // Output: 15
